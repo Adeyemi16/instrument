@@ -205,6 +205,10 @@ ul{
     width: 50%;
 }
 
+.imgd{
+    width: 100%;
+}
+
 .columnb{
     display: flex;
     flex-direction: column;
@@ -335,6 +339,10 @@ footer{
     }
 
     .imgc{
+        width: 100%;
+    }
+    
+      .imgd{
         width: 100%;
     }
 
