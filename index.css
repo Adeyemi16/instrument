@@ -1,0 +1,407 @@
+:root{
+    --white: #fff;
+    --black: #000000;
+}
+
+@font-face {
+    font-family: small;
+    src: url(assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: medium;
+    src: url(assets/fonts/Poppins-Medium.ttf);
+}
+
+body{
+    background: var(--black);
+    color: var(--white);
+   
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 40px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+}
+
+.light{
+    font-family: small;
+    font-weight: 800;
+    width: 80%;
+}
+
+.regular{
+    font-family: regular;
+    font-size: larger;
+    font-weight: 700;
+    margin: 0;
+}
+
+.medium{
+    font-family: medium;
+    margin: 0;
+    font-size: small;
+}
+
+.bold{
+    font-family: bold;
+    font-size:  xx-large;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 40px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 40px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+   text-align: left;
+   justify-content: left;
+   gap: 30px;
+}
+
+.img{
+    width: 70%;
+}
+
+.learn{
+    height: 40px;
+    width: 150px;
+    color: var(--black);
+    background: var(--white);
+    border-radius: 40px;
+    border: none;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.learn:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.621);
+    transition: .3s;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 100px;
+}
+
+.imgb{
+    width: 100%;
+    height: 600px;
+}
+
+.center{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centerb{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90px;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+}
+
+.rowc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90px;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+}
+
+.imgc{
+    width: 50%;
+}
+
+.columnb{
+    display: flex;
+    flex-direction: column;
+   width: 40%;
+   text-align: left;
+   justify-content: left;
+   gap: 30px;
+}
+
+.fifth{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sixth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seventh{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.eight{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.columnc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 49%;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.rowb{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    justify-content: space-between;
+}
+
+.news{
+    height: 40px;
+    width: 150px;
+    color: var(--white);
+    border-style: solid;
+    border-width: .2px;
+    background: var(--black);
+    border-color: var(--white);
+    border-radius: 40px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:700px) {
+    .navlinks{
+        display: none;
+    }
+
+    nav{
+        padding: 0;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rowc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .centerb{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column{
+        width: 100%;
+        text-align: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .columnb{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .imgc{
+        width: 100%;
+    }
+
+    .center{
+        width: 100%;
+    }
+
+    .sixth{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .columnc{
+        width: 100%;
+    }
+
+    .light{
+        width: 100%;
+        text-align: unset;
+    }
+
+    .seventh{
+        height: auto;
+    }
+
+    footer{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .rowb{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+    }
+
+    .socials{
+        width: 100%;
+    }
+
+    .hide{
+        display: block;
+    }
+
+    .show{
+        
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: var(--white);
+        position: absolute;
+        color: var(--black);
+        height: 90px;
+        flex-direction: row;
+       justify-content: space-evenly;
+    }
+}
